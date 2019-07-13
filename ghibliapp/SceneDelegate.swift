@@ -21,8 +21,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
+            let movieListViewModel = MovieListViewModel(api: GhibliApiFactory.create())
+            
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: ContentView())
+            window.rootViewController = UIHostingController(rootView: ContentView(viewModel: movieListViewModel))
             self.window = window
             window.makeKeyAndVisible()
         }

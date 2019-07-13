@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6027064222D9C87600DEABDF /* GhibliApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6027064122D9C87600DEABDF /* GhibliApiTest.swift */; };
+		6027064422D9C8CC00DEABDF /* GhibliApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6027064322D9C8CC00DEABDF /* GhibliApi.swift */; };
+		604D42EE22DA29BD00735AA6 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D42ED22DA29BD00735AA6 /* MovieListViewModel.swift */; };
+		604D42F022DA32FA00735AA6 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D42EF22DA32FA00735AA6 /* MovieRow.swift */; };
 		6056D03122D9C339000D4B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D03022D9C339000D4B38 /* AppDelegate.swift */; };
 		6056D03322D9C339000D4B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D03222D9C339000D4B38 /* SceneDelegate.swift */; };
 		6056D03522D9C339000D4B38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D03422D9C339000D4B38 /* ContentView.swift */; };
@@ -15,6 +19,7 @@
 		6056D03D22D9C33B000D4B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6056D03B22D9C33B000D4B38 /* LaunchScreen.storyboard */; };
 		6056D04822D9C33C000D4B38 /* ghibliappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D04722D9C33C000D4B38 /* ghibliappTests.swift */; };
 		6056D05322D9C33C000D4B38 /* ghibliappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D05222D9C33C000D4B38 /* ghibliappUITests.swift */; };
+		6056D06122D9C3A4000D4B38 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056D06022D9C3A4000D4B38 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6027064122D9C87600DEABDF /* GhibliApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApiTest.swift; sourceTree = "<group>"; };
+		6027064322D9C8CC00DEABDF /* GhibliApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApi.swift; sourceTree = "<group>"; };
+		604D42ED22DA29BD00735AA6 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		604D42EF22DA32FA00735AA6 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		6056D02D22D9C339000D4B38 /* ghibliapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ghibliapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6056D03022D9C339000D4B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6056D03222D9C339000D4B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		6056D04E22D9C33C000D4B38 /* ghibliappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghibliappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6056D05222D9C33C000D4B38 /* ghibliappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghibliappUITests.swift; sourceTree = "<group>"; };
 		6056D05422D9C33C000D4B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6056D06022D9C3A4000D4B38 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,10 @@
 				6056D03B22D9C33B000D4B38 /* LaunchScreen.storyboard */,
 				6056D03E22D9C33B000D4B38 /* Info.plist */,
 				6056D03822D9C33B000D4B38 /* Preview Content */,
+				6056D06022D9C3A4000D4B38 /* Movie.swift */,
+				6027064322D9C8CC00DEABDF /* GhibliApi.swift */,
+				604D42ED22DA29BD00735AA6 /* MovieListViewModel.swift */,
+				604D42EF22DA32FA00735AA6 /* MovieRow.swift */,
 			);
 			path = ghibliapp;
 			sourceTree = "<group>";
@@ -123,6 +137,7 @@
 			children = (
 				6056D04722D9C33C000D4B38 /* ghibliappTests.swift */,
 				6056D04922D9C33C000D4B38 /* Info.plist */,
+				6027064122D9C87600DEABDF /* GhibliApiTest.swift */,
 			);
 			path = ghibliappTests;
 			sourceTree = "<group>";
@@ -269,7 +284,11 @@
 			files = (
 				6056D03122D9C339000D4B38 /* AppDelegate.swift in Sources */,
 				6056D03322D9C339000D4B38 /* SceneDelegate.swift in Sources */,
+				6056D06122D9C3A4000D4B38 /* Movie.swift in Sources */,
 				6056D03522D9C339000D4B38 /* ContentView.swift in Sources */,
+				604D42F022DA32FA00735AA6 /* MovieRow.swift in Sources */,
+				6027064422D9C8CC00DEABDF /* GhibliApi.swift in Sources */,
+				604D42EE22DA29BD00735AA6 /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6056D04822D9C33C000D4B38 /* ghibliappTests.swift in Sources */,
+				6027064222D9C87600DEABDF /* GhibliApiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
